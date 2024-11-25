@@ -76,10 +76,12 @@
     </div>
 </header>
 
-        <div class="burger-menu" style="background-image: url('./img/burger-1.png');">
+        <div class="burger-menu" style="background-image: url('./img/burger-2.png');">
   <div class="burger-menu__inner">
     <div class="burger-menu__logo">
-      <img src="./img/logo-big.png" alt="">
+      <a href="./index.html">
+        <img src="./img/logo-big.png" alt="">
+      </a>
     </div>
     <div class="burger-menu__search-wrapper">
       <input class="burger-menu__search" type="text">
@@ -88,18 +90,17 @@
       </button>
     </div>
     <ul class="burger-menu__list">
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">О&#160;нас</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Галерея</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Услуги</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Адреса</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Мастера</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Блог</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Товары из&#160;Таиланда</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Франчайзинг</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Для бизнеса</a></li>
+      <li class="burger-menu__item"><a href="./about.html" class="burger-menu__link">О&#160;нас</a></li>
+      <li class="burger-menu__item"><a href="./gallery.html" class="burger-menu__link">Галерея</a></li>
+      <li class="burger-menu__item"><a href="./services.html" class="burger-menu__link">Услуги</a></li>
+      <li class="burger-menu__item"><a href="#salon-addresses" class="burger-menu__link">Адреса</a></li>
+      <li class="burger-menu__item"><a href="./masters.html" class="burger-menu__link">Мастера</a></li>
+      <li class="burger-menu__item"><a href="./blog.html" class="burger-menu__link">Блог</a></li>
+      <li class="burger-menu__item"><a href="./products.html" class="burger-menu__link">Товары из&#160;Таиланда</a></li>
+      <li class="burger-menu__item"><a href="./franchising.html" class="burger-menu__link">Франчайзинг</a></li>
       <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Корпоративным клиентам</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Система лояльности ⌄</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Контакты</a></li>
+      <li class="burger-menu__item"><a href="./loyalty-system.html" class="burger-menu__link">Система лояльности ⌄</a></li>
+      <li class="burger-menu__item"><a href="./contacts.html" class="burger-menu__link">Контакты</a></li>
     </ul>
     <button class="btn btn-filled">записаться онлайн</button>
   </div>
@@ -108,7 +109,7 @@
   </button>
 </div>
         <main class="main">
-            <section class="hero" id="hero" style="background-image: url(./img/home/main-bg.png);">
+            <section class="hero" id="hero" style="background-image: url(./img/home/main-bg.png)">
     <div class="container">
         <div class="hero__row">
             <div class="hero__inner">
@@ -117,14 +118,18 @@
                 </div>
                 <div class="hero__content">
                     <div class="hero__left">
-                        <img src="./img/home/express-massage.png" alt="Ойл-массаж шейно-воротниковой зоны и спины" />
+                        <picture>
+                            <source srcset="./img/home/express-massage-mob.png" media="(max-width: 480px)" />
+                            <img src="./img/home/express-massage.png" alt="Ойл-массаж шейно-воротниковой зоны и спины" />
+                        </picture>
                     </div>
                     <div class="hero__info">
                         <h1 class="hero__title main-title">EXPRESS</h1>
                         <p class="hero__subtitle">Ойл-массаж шейно-воротниковой зоны и&#160;спины</p>
                         <p class="hero__text text">
-                            Быстрое и&#160;эффективное расслабление. <br> Этот массаж идеально подходит для тех, кто хочет быстро
-                            избавиться от&#160;стресса и&#160;вернуть легкость движений.
+                            Быстрое и&#160;эффективное расслабление. <br />
+                            Этот массаж идеально подходит для тех, кто хочет быстро избавиться от&#160;стресса и&#160;вернуть легкость
+                            движений.
                         </p>
                     </div>
                 </div>
@@ -360,7 +365,7 @@
                 </ul>
             </div>
             <div class="main-service__bottom">
-    <h2 class="main-service__title main-title">3d-тур</h2>
+    <h2 class="main-service__title title-2">3d-тур</h2>
     <div class="main-service__video">
         <iframe
 			class="main-service__video-item"
@@ -383,9 +388,18 @@
         <div class="main-reviews__inner">
             <h2 class="main-reviews__title main-title">Отзывы</h2>
             <ul class="main-reviews__list">
-                <li class="main-reviews__item">Отзыв</li>
-                <li class="main-reviews__item">Отзыв</li>
-                <li class="main-reviews__item">Отзыв</li>
+                <li class="main-reviews__item">
+                    <p>
+                        подгрузка из&#160;2ГИС, Яндекс Карт, Гугл карт</li>
+                    </p>
+                <li class="main-reviews__item">
+                    <p>
+                        подгрузка из&#160;2ГИС, Яндекс Карт, Гугл карт</li>
+                    </p>
+                <li class="main-reviews__item">
+                    <p>
+                        подгрузка из&#160;2ГИС, Яндекс Карт, Гугл карт</li>
+                    </p>
             </ul>
         </div>
     </div>
@@ -394,7 +408,7 @@
   <div class="main-reviews-pagination__item"></div>
 </div>
 
-            <section class="info-sections">
+            <section class="info-sections" style="background-image: url('./img/home/faq-bg.png');">
   <div class="info-sections__top">
     <div class="container">
       <div class="info-sections__info btn-wrapper">
@@ -548,23 +562,21 @@
                 <img src="./img/home/form.png" alt="Подпишитесь на siam oasis" />
             </div>
             <div class="subscribe__info">
-        <h2 class="subscribe__title main-title">Подпишитесь на&#160;siam oasis</h2>
-        <p class="subscribe__text text">
-          Будьте в&#160;курсе наших акций и&#160;обновлений. И, конечно, пишите нам по&#160;любым вопросам. Всегда отвечаем.
-        </p>
-        <form class="subscribe__form subscribe-form">
-          <div class="subscribe-form__input-wrapper">
-            <input class="subscribe-form__input" id="fio" name="" placeholder="ФИО" type="text">
-          </div>
-          <div class="subscribe-form__input-wrapper">
-            <input class="subscribe-form__input" id="tel" name="" placeholder="Номер телефона" type="tel">
-          </div>
-          <div class="subscribe-form__input-wrapper">
-            <input class="subscribe-form__input" id="email" name="" placeholder="E-mail" type="email">
-          </div>
-        </form>
-        <button class="subscribe__btn btn-accent">подписаться</button>
-      </div>
+                <h2 class="subscribe__title main-title">ПОДПИШИТЕСЬ НА&#160;SIAm oasis</h2>
+                <p class="subscribe__text text">Будьте в&#160;курсе наших акций и&#160;обновлений. И, конечно, пишите нам по&#160;любым вопросам. Всегда отвечаем.</p>
+                <form class="subscribe__form subscribe-form">
+                    <div class="subscribe-form__input-wrapper">
+                        <input class="subscribe-form__input" id="fio" name="" placeholder="ФИО" type="text" />
+                    </div>
+                    <div class="subscribe-form__input-wrapper">
+                        <input class="subscribe-form__input" id="tel" name="" placeholder="Номер телефона" type="tel" />
+                    </div>
+                    <div class="subscribe-form__input-wrapper">
+                        <input class="subscribe-form__input" id="email" name="" placeholder="E-mail" type="email" />
+                    </div>
+                </form>
+                <button class="subscribe__btn btn-accent">подписаться</button>
+            </div>
         </div>
     </div>
 </section>

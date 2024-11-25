@@ -11,6 +11,7 @@
     </head>
 
     <body>
+        <div class="more-text">
         <header class="header">
     <div class="header__row">
         <div class="header__top">
@@ -64,10 +65,13 @@
     </div>
 </header>
 
-        <div class="burger-menu" style="background-image: url('./img/burger-1.png');">
+        </div>
+        <div class="burger-menu" style="background-image: url('./img/burger-2.png');">
   <div class="burger-menu__inner">
     <div class="burger-menu__logo">
-      <img src="./img/logo-big.png" alt="">
+      <a href="./index.html">
+        <img src="./img/logo-big.png" alt="">
+      </a>
     </div>
     <div class="burger-menu__search-wrapper">
       <input class="burger-menu__search" type="text">
@@ -76,18 +80,17 @@
       </button>
     </div>
     <ul class="burger-menu__list">
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">О&#160;нас</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Галерея</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Услуги</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Адреса</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Мастера</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Блог</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Товары из&#160;Таиланда</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Франчайзинг</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Для бизнеса</a></li>
+      <li class="burger-menu__item"><a href="./about.html" class="burger-menu__link">О&#160;нас</a></li>
+      <li class="burger-menu__item"><a href="./gallery.html" class="burger-menu__link">Галерея</a></li>
+      <li class="burger-menu__item"><a href="./services.html" class="burger-menu__link">Услуги</a></li>
+      <li class="burger-menu__item"><a href="#salon-addresses" class="burger-menu__link">Адреса</a></li>
+      <li class="burger-menu__item"><a href="./masters.html" class="burger-menu__link">Мастера</a></li>
+      <li class="burger-menu__item"><a href="./blog.html" class="burger-menu__link">Блог</a></li>
+      <li class="burger-menu__item"><a href="./products.html" class="burger-menu__link">Товары из&#160;Таиланда</a></li>
+      <li class="burger-menu__item"><a href="./franchising.html" class="burger-menu__link">Франчайзинг</a></li>
       <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Корпоративным клиентам</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Система лояльности ⌄</a></li>
-      <li class="burger-menu__item"><a href="#!" class="burger-menu__link">Контакты</a></li>
+      <li class="burger-menu__item"><a href="./loyalty-system.html" class="burger-menu__link">Система лояльности ⌄</a></li>
+      <li class="burger-menu__item"><a href="./contacts.html" class="burger-menu__link">Контакты</a></li>
     </ul>
     <button class="btn btn-filled">записаться онлайн</button>
   </div>
@@ -97,9 +100,77 @@
 </div>
         <main class="main">
             <section class="image-banner">
-    <img class="image-banner__img" src="./img/loyalty-system/banner.png" alt="" />
+    <picture>
+        <source srcset="./img/loyalty-system/b2.png" media="(max-width: 480px)" />
+        <img class="image-banner__img" src="./img/loyalty-system/banner.png" alt="" />
+    </picture>
 </section>
 
+            <section class="loyalty-system">
+                <div class="container">
+                    <div class="loyalty-system__inner">
+                        <div
+							class="loyalty-system__item-wrapper"
+							style="background-image: url('./img/loyalty-system/bg.png')"
+						>
+                            <a href="#!" class="loyalty-system__link">
+                                <img src="./img/loyalty-system/1.png" alt="" />
+                                <div class="loyalty-system__item-block">
+                                    <h3 class="loyalty-system__item-title">БОНУСНАЯ ПРОГРАММА:</h3>
+                                    <ol class="loyalty-system__list">
+                                        <li class="loyalty-system__item">Получайте баллы за&#160;каждое посещение.</li>
+                                        <li class="loyalty-system__item">
+                                            Расплачивайтесь накопленными баллами за&#160;следующие посещения.
+                                        </li>
+                                        <li class="loyalty-system__item">Срок действия баллов&#160;&#8212; 1 год.</li>
+                                        <li class="loyalty-system__item">
+                                            Карты и&#160;баллы не&#160;могут быть обменены, возвращены, заменены или выкуплены за&#160;наличные.
+                                        </li>
+                                        <li class="loyalty-system__item">
+                                            Карты не&#160;подлежат передаче и&#160;не&#160;могут быть объединены с&#160;другими картами.
+                                        </li>
+                                        <li class="loyalty-system__item">
+                                            Компания оставляет за&#160;собой право окончательного решения в&#160;случае возникновения споров.
+                                        </li>
+                                        <li class="loyalty-system__item">
+                                            За&#160;каждого приглашённого пользователя Электронной карты, после визита реферала,
+                                            начисляются бонусы в&#160;размере 300 рублей.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="franchising__subscribe">
+            <section class="subscribe">
+    <div class="container">
+        <div class="subscribe__row">
+            <div class="subscribe__img">
+                <img src="./img/home/form.png" alt="Подпишитесь на siam oasis" />
+            </div>
+            <div class="subscribe__info">
+                <h2 class="subscribe__title main-title">запросить предложение</h2>
+                <p class="subscribe__text text">Оставьте заявку и&#160;мы&#160;свяжемся с&#160;вами в&#160;ближайшее время</p>
+                <form class="subscribe__form subscribe-form">
+                    <div class="subscribe-form__input-wrapper">
+                        <input class="subscribe-form__input" id="fio" name="" placeholder="ФИО" type="text" />
+                    </div>
+                    <div class="subscribe-form__input-wrapper">
+                        <input class="subscribe-form__input" id="tel" name="" placeholder="Номер телефона" type="tel" />
+                    </div>
+                    <div class="subscribe-form__input-wrapper">
+                        <input class="subscribe-form__input" id="email" name="" placeholder="E-mail" type="email" />
+                    </div>
+                </form>
+                <button class="subscribe__btn btn-accent">отправить</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+            </div>
         </main>
         <footer class="footer" style="background-image: url('./img/footer-bg.png')">
     <div class="container">
